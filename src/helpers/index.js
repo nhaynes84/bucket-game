@@ -19,7 +19,7 @@ export const notifySuccess = (totalSteps, onClose) => {
     });
   };
 
-export const buildNewBuckets = (buckets, from, to) => {
+export const buildNewBuckets = (buckets = {}, from = 'a', to = 'b') => {
     const availableSpace = buckets[to].capacity - buckets[to].level;
     const remainingAmount = buckets[from].level - availableSpace;
     const bucketTotal = buckets[from].level + buckets[to].level;
