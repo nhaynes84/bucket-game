@@ -1,3 +1,14 @@
+Try your hand at the Game of Buckets.
+
+The Game Rules
+- You have a 3 gallon and a 5 gallon bucket.
+- You can either fill, empty or transfer one bucket per move.
+- You must make 4 gallons of water in as few moves as possible.
+
+The Project
+- create-react-app
+- antd
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
